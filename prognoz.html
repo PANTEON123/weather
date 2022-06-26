@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./prognoz.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="Boxhead">
+        <input type="text" class="item1" id="inp" value="" placeholder="Введите город">
+        <button value="Search" class="item2" id="but">Search</button>
+    </div>
+    <div class="Box1">
+        <div id="Citymest">
+            <img src="https://cdn-icons-png.flaticon.com/512/855/855003.png" alt="" width="30px" height="35px">
+            <div id="forCity"></div>
+        </div>
+        <div id="tempc"></div>
+    </div>
+    <div class="Box2">
+        <dl>
+            <dt id="rain">
+                <img src="https://cdn-icons-png.flaticon.com/512/3351/3351958.png" alt="" width="30px" height="35px">
+                <span id="forRain"></span>
+            </dt>
+            <dt id="wind">
+                <img src="https://cdn-icons-png.flaticon.com/512/4343/4343234.png" width="30px" height="35px" alt="">
+                <span id="forWind"></span>
+            </dt>
+            <dt></dt>
+        </dl>
+    </div>
+    <div class="Box3">
+        <div id="today">Cегодня
+            <dl class="todayPar">
+                <dt>Макс.t: <span id="maxTemToday"></span></dt>
+                <dt>Мин.t: <span id="minTemToday"></span></dt>
+                <dt>Осадки: <span id="precipToday"></span></dt>
+                <dt>Закат: <span id="sunsetToday"></span></dt>
+                <dt>Восход: <span id="sunriseToday"></span></dt>
+                <dt><img src="" alt="" width="60px" height="60px" id="imgToday"></dt>
+            </dl>
+        </div>
+        <div id="tomorrow">Завтра
+            <dl class="todayPar">
+                <dt>Макс.t: <span id="maxTemTomor"></span></dt>
+                <dt>Мин.t: <span id="minTemTomor"></span></dt>
+                <dt>Осадки: <span id="precipTomor"></span></dt>
+                <dt>Закат: <span id="sunsetTomor"></span></dt>
+                <dt>Восход: <span id="sunriseTomor"></span></dt>
+                <dt><img src="" alt="" width="60px" height="60px" id="imgTomor"></dt>
+            </dl>
+        </div>
+        <div id="nextDay">Послезавтра
+            <dl class="todayPar">
+                <dt>Макс.t: <span id="maxTemNextD"></span></dt>
+                <dt>Мин.t: <span id="minTemNextD"></span></dt>
+                <dt>Осадки: <span id="precipNextD"></span></dt>
+                <dt>Закат: <span id="sunsetNextD"></span></dt>
+                <dt>Восход: <span id="sunriseNextD"></span></dt>
+                <dt><img src="" alt="" width="60px" height="60px" id="imgNextD"></dt>
+            </dl>
+        </div>
+    </div>
+
+    <script src="./Prognoz.js"></script>
+</body>
+
+</html>

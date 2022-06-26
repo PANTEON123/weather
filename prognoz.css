@@ -1,0 +1,194 @@
+body {
+    background-color: rgb(158, 218, 253);
+}
+
+.item1 {
+    width: 60px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 650px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 120px;
+    border-radius: 8px;
+    border-color: rgba(227, 255, 205, 0.673);
+}
+
+.item2 {
+    width: 50px;
+    height: 20px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(82, 218, 100, 0.841);
+    border-radius: 5px;
+    border-color: rgba(53, 216, 51, 0.623);
+}
+
+.Boxhead {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    width: auto;
+    height: 100px;
+    column-gap: 20px;
+}
+
+.Box1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: px;
+    height: px;
+}
+
+.Box2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: px;
+    height: px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.Box3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: px;
+    height: px;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#Citymest {
+    margin-left: 40px;
+}
+
+#rain {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#wind {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#today {
+    width: 220px;
+    height: 310px;
+    padding-top: 20px;
+    background-color: rgba(66, 176, 239, 0.803);
+    border-radius: 30px;
+    margin-left: 300px;
+    justify-content: center;
+    font-style: inherit;
+    font-weight: 200;
+    font-family: URW Chancery L, cursive;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#tomorrow {
+    width: 220px;
+    height: 310px;
+    padding-top: 20px;
+    background-color: rgba(66, 176, 239, 0.803);
+    border-radius: 30px;
+    justify-content: center;
+    font-style: inherit;
+    font-weight: 200;
+    font-family: URW Chancery L, cursive;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#nextDay {
+    width: 220px;
+    height: 310px;
+    padding-top: 20px;
+    background-color: rgba(66, 176, 239, 0.803);
+    border-radius: 30px;
+    margin-right: 300px;
+    justify-content: center;
+    text-align: center;
+    font-style: inherit;
+    font-weight: 200;
+    font-family: URW Chancery L, cursive;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#tempc {
+    justify-content: center;
+    font-style: inherit;
+    font-weight: 200;
+    font-family: URW Chancery L, cursive;
+    font-size: 30px;
+    margin-left: 300px;
+}
+
+#Citymest {
+    display: flex;
+    align-items: center;
+    font-style: inherit;
+    font-weight: 200;
+    font-family: URW Chancery L, cursive;
+    font-size: 20px;
+}
+
+#Citymest>img {
+    margin-right: 20px;
+}
+
+#wind {
+    display: flex;
+    align-items: center;
+    font-style: inherit;
+    font-weight: 200;
+    font-family: URW Chancery L, cursive;
+    font-size: 20px;
+}
+
+#wind>img {
+    margin-right: 20px;
+}
+
+#rain>img {
+    margin-right: 20px;
+}
+
+#rain {
+    display: flex;
+    align-items: center;
+    font-style: inherit;
+    font-weight: 200;
+    font-family: URW Chancery L, cursive;
+    font-size: 20px;
+}
+
+.todayPar {
+    font-size: 18px;
+}
+
+#imgToday {
+    margin-top: 30px;
+}
+
+#imgTomor {
+    margin-top: 30px;
+}
+
+#imgNextD {
+    margin-top: 30px;
+}
